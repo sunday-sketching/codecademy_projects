@@ -20,7 +20,7 @@ if option == 'C':
   area = pi * radius ** 2
   print "The pie is baking..."
   sleep(1)
-  print ("Area: %.2f. \n%s" % (area, hint))
+  print("Area: %.2f. \n%s" % (area, hint))
   
 elif option == 'T': 
   base = float(raw_input("Enter base: "))
@@ -28,7 +28,7 @@ elif option == 'T':
   area = 0.5 * base * height
   print "Uni Bi Tri..."
   sleep(1)
-  print ("Area: %.2f. \n%s" % (area, hint))
+  print("Area: %.2f. \n%s" % (area, hint))
   
 else: 
   print "Error! Invalid shape selector specified. Exiting."
